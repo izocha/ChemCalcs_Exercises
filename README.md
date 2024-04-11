@@ -6,22 +6,30 @@ Diversos scripts en Python para la resolución de ejercicios y construcción de 
 
 Estos scripts se crearon con las siguientes dependencias:
 
-- python >= 3.12.00
+- python >= 3.1
 - numpy >= 1.4
 - pandas >= 1.5
 - matplotlib >= 3.8
 
 ## Instalación de dependencias
 
-Se puede usar pip o el administrador de paquetes del sistema si usa Linux
+Se puede utilizar pip en Windows o Mac
 
 ```bash
 pip install pandas
 pip install matplotlib
 ```
 
+o el administrador de paquetes en caso de Linux
+
+```bash
+# fedora
+sudo dnf install python3-matplotlib
+sudo dnf install python3-pandas
+```
+
 En el caso de numpy, se debería haber instalado como una dependencia de pandas.
 
-> [!INFO]
+> [!NOTE]
 >
 > Se usan funciones **realmente** básicas de estas librerías, así que no debería haber problemas entre versiones
