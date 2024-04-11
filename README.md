@@ -6,8 +6,8 @@ Diversos scripts en Python para la resolución de ejercicios y construcción de 
 
 Estos scripts se crearon con las siguientes dependencias:
 
-- python >= 3.1
-- numpy >= 1.4
+- python >= 3.12
+- numpy >= 1.24
 - pandas >= 1.5
 - matplotlib >= 3.8
 
